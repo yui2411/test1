@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メタモン</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #87CEEB, #FFC0CB);
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans JP', sans-serif;
+            text-align: center;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            color: #333;
+            text-shadow: 2px 2px 2px #fff;
+            margin-top: 20px; /* タイトルと画像の間にスペースを追加 */
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        p, ul {
+            color: #666;
+            text-align: left;
+            max-width: 400px;
+            margin: 0 20px; /* テキストと画像の間のスペースを追加 */
+            font-size: 16px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #d3a8ff;
+            color: #fff;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="metamon.png" alt="メタモンの画像1">
+        <img src="metamon.png" alt="メタモンの画像2">
+        <img src="metamon.png" alt="メタモンの画像3">
+    </div>
+    <h1>{メタモンとは}</h1>
+    <div class="container">
+        <p>メタモンちゃんは、ポケットモンスターシリーズに登場する<br>ポケモンの一つなのだよ！</p>
+        <p>メタモンちゃんの特徴は、他のポケモンの姿や能力を<br>まねすることができることなの♪</p>
+    </div>
+    <div class="container">
+        <ul>
+            <li>変身能力：他のポケモンの姿や能力をまねすることができるよ♪</li>
+            <li>固定個体値：HP、攻撃、防御、特攻、特防、素早さの<br>各ステータスが31で固定されているのだ♪</li>
+        </ul>
+        <p>メタモンちゃんは、その便利な変身能力とかわいらしい<br>外見から、ポケモンファンに愛されているのだよ！</p>
+    </div>
+    <footer>
+        © 2024 メタモンファンサイト
+    </footer>
+</body>
+</html>
